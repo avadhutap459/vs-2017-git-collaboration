@@ -27,7 +27,8 @@ namespace vs_2017_git_collaboration
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("<h5>Hello SUDLife </h5>");
+                await context.Response.WriteAsync("Welcome to organzation");
             });
         }
     }
